@@ -1,0 +1,9 @@
+.header {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFB606;
+    background-color : #3B3B3B;
+    margin : 20px 0;
+    font-family : 'Arial', sans-serif;
+    border-bottom: 3px solid #FFB606;
+}
