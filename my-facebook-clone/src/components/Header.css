@@ -1,9 +1,17 @@
-.header {
-    text-align: center;
-    font-size: 2rem;
-    color: #FFB606;
-    background-color : #3B3B3B;
-    margin : 20px 0;
-    font-family : 'Arial', sans-serif;
-    border-bottom: 3px solid #FFB606;
+.header-container {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.facebook-logo {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 4rem;
+    color: #1877f2;
+    margin: 0;
+}
+
+.supporting-text {
+    font-size: 1.25rem;
+    color: #606770;
+    max-width: 400px;
 }
