@@ -8,14 +8,14 @@ function LoginForm(){
                 <input 
                     type='email'
                     placeholder='Email'
-                    className='login-input'
+                    className='login-input uniform-width'
                 />
                 <input
                     type='password'
                     placeholder='Password'
-                    className='login-input'
+                    className='login-input uniform-width'
                 />
-                <button type='submit' className='login-button'>
+                <button type='submit' className='login-button uniform-width'>
                     Log in
                 </button>
             </form>
@@ -23,7 +23,7 @@ function LoginForm(){
                 Forgotten Password?
             </a>
             <div className='divider'></div>
-            <button className='create-account-button'>
+            <button className='create-account-button uniform-width'>
                 Create new account
             </button>
         </div>
