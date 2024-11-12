@@ -1,0 +1,14 @@
+.create-page {
+    text-align: center;
+
+}
+
+.create-page-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.create-page-link:hover {
+    text-decoration : underline;
+}
