@@ -4,6 +4,7 @@
   justify-content: space-between;
   min-height: 100vh;
   background-color: #f0f2f5;
+  padding-bottom: 20px;
 }
 
 .main-content {
@@ -22,7 +23,22 @@
 .right-section {
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.login-form-container, .create-page {
+  align-items: center;
+}
+
+@media (max-width: 768px){
+  .main-content {
+    flex-direction: column;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+  }
 }
 

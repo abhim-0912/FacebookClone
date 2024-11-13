@@ -14,6 +14,7 @@ function App() {
       </div>
       <div className='right-section'>
         <LoginForm />
+        <CreatePage />
       </div>
       </div>
         <Footer />
