@@ -3,8 +3,8 @@ import './Footer.css';
 
 function Footer(){
     return (
-        <div className="footer">
-        <div className="footer-languages">
+    <div className="footer">
+        <div className="footer-languages footer-width">
         <a href="#">English (UK)</a>
         <a href="#">हिन्दी</a>
         <a href="#">ಕನ್ನಡ</a>
@@ -17,9 +17,10 @@ function Footer(){
         <a href="#">Deutsch</a>
         <a href="#">Italiano</a>
         <a href="#">اردو</a>
-        <a href="#">More...</a>
+        <button className="more-languages">+</button>
         </div>
-        <div className="footer-links">
+        <div className="divider-footer"></div>
+        <div className="footer-links footer-width">
         <a href="#">Sign Up</a>
         <a href="#">Log In</a>
         <a href="#">Messenger</a>
